@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>numbers sqrs</title>
+    <style>
+        button{
+            width: 75px;
+            height: 30px;
+            position: relative;
+            bottom: 6px;
+        }
+        .container{
+            position: relative;
+            top:684%;
+            right:-37%;
+        }
+        #print{
+            position: relative;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="Enter Number">
+        <button type="button">
+        <div id="print"></div>
+    </div>
+    <script>
+       button.onclick = function result(){
+        let
+            x = document.getElementById("x"),
+            print = document.getElementById("print");
+
+            print.innerHTML = x.value * x.value;
+
+        }
+    </script>
+</body>
+</html>
